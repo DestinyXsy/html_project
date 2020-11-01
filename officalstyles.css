@@ -1,0 +1,158 @@
+body
+{
+    background-image: linear-gradient(to bottom right,rgb(255, 255, 187),rgb(91, 220, 243));
+    background-repeat: repeat-x;
+}
+
+h2
+{
+    font-size:1.5em;
+    text-align: left;
+    padding:10px 25px;
+}
+
+#profile,#web
+{
+    display: inline-block;
+}
+
+#profile
+{
+    background-color: white;
+    border-radius: 25px;
+    width: 18%;
+    height: 400px;
+}
+#profile img
+{
+    width: 70%;
+    height: 50%;
+    margin: 20px 10px;
+}
+#web
+{
+    margin: 0 300px;
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    height: 100%;
+    border:2px solid rgb(255, 255, 255);
+    border-radius: 25px;
+
+}
+#top 
+{
+    width: 100%;
+    height: 5em;
+}
+
+#top h1
+{
+    color:rgb(0, 0, 0);
+    font-size: 3em;
+    font-family: '仿宋',sans-serif;
+    text-align: left;
+}
+
+#walkthrough_picture img
+{
+    width: 100%;
+    height: 400px;
+}
+
+#walkthrough 
+{
+    width: 100%;
+    height: 4em;
+    background-color: rgb(143, 237, 250);
+    border-radius:15px;
+}
+
+#walkthrough ul
+{
+    font-size:1.5em;
+    padding: 0.5em 0.5em;
+}
+
+#news
+{
+    background-color:rgb(143,237,250);
+    border-radius: 25px;
+    height: 300px;
+}
+
+li
+{
+    padding:10px 0px;
+}
+
+#entire_new
+{
+    position: relative;
+}
+
+#universal_news,#education,#campus_news
+{
+    background-color:rgb(143,237,250);
+    display:inline-block;
+    position: relative;
+    width: 30%;
+    height: 450px;
+    border-radius: 25px;
+}
+
+#universal_news
+{
+    margin: 30px 0px;
+}
+
+#education
+{
+    margin: 30px 50px;
+}
+
+
+#education_web
+{
+    position: relative;
+}
+
+#information,#science_news
+{
+    position: absolute;
+    background-color:rgb(143,237,250);
+    display:inline-block;
+    width: 45%;
+    height: 400px;
+    margin: 30px 25px;
+    border-radius: 25px;
+}
+#information
+{
+    margin: 30px 0px 700px 0px;
+}
+
+#science_news
+{
+    margin:30px 500px 0px 0px;
+}
+#relative_web 
+{
+    background-color: rgb(143,237,250);
+    border-radius:25px;
+    position: absolute;
+    
+}
+#relative_web li
+{
+    display: inline-block;
+    width: 33%;
+    height: 300px;
+    margin: 30px 0px;
+}
+
+#relative_web img
+{
+    display:inline-block;
+    width: 100%;
+    height: 100%;
+}
