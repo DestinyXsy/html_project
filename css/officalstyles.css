@@ -165,18 +165,48 @@ li
 {
     background-color:rgb(143,237,250);
     float: left;
-    width: 30%;
     height: 450px;
     border-radius: 25px;
     margin: 30px 20px;
 }
 
+#universal_news li,#education li,#campus_news li
+{
+    width: 70%;
+    padding: 20px 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
 #education_web
 {
     width:100%;
     font-size: 0;
 }
 
+#wechat_article
+{
+    background-color:rgb(143,237,250);
+    border-radius: 25px;
+    height: 400px;
+}
+#wechat_article ul
+{
+    list-style-type:none;
+}
+#wechat_article li
+{
+    float: left;
+    /*width: 33%;*/
+    height: 300px;
+    margin: 0px 0px;
+}
+
+#wechat_article img
+{
+    width: 100%;
+    height: 100%;
+}
 #information,#science_news
 {
     background-color:rgb(143,237,250);
@@ -216,7 +246,7 @@ li
 #relative_web li
 {
     float: left;
-    width: 33%;
+    /*width: 33%;*/
     height: 300px;
     margin: 0px 0px;
 }
